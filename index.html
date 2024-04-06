@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap')
+		</style>
+	</style>
+	
+	<title>MG Fashion Jewels</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="script.js"></script>
+</head>
+	
+<body>
+<header>
+		<a href="index.html"><img src="logo.png" alt="Logo" id="logo"></a>
+    <h1 class="alex-brush-regular">MG Fashion Jewels</h1>
+</header>
+<nav class="neuton-bold">
+    <ul id="categories-list">
+        <li><a href="#" onclick="showAll()">Home</a></li>
+        <li><a href="#" onclick="filterByCategory('necklace sets')">Necklace Sets</a></li>
+        <li><a href="#" onclick="filterByCategory('pendant sets')">Pendant Sets</a></li>
+        <li><a href="#" onclick="filterByCategory('earrings')">Earrings</a></li>
+				<li><a href="#" onclick="filterByCategory('ring')">Rings</a></li>
+				<li><a href="#" onclick="filterByCategory('bracelet')">Bracelets</a></li>
+		</ul>
+</nav>
+<div class="masonry-container" id="catalog-container">
+    <!-- Catalog items added here dynamically -->
+</div>
+	<script>
+
+		function displayCatalog(data) {
+			const catalogContainer = document.getElementById('catalog-container');
+			catalogContainer.innerHTML = '';
+			data.forEach(item => {
+					const catalogItem = document.createElement('div');
+					catalogItem.classList.add('masonry-item');
+					catalogItem.innerHTML = `
+							<img src="${item.imageUrl}" alt="${item.name}" width="150">
+							<h3 class="neutron-regular">${item.name}</h3>`;
+					catalogContainer.appendChild(catalogItem);
+			});
+		}
+
+		function showAll() {
+			displayCatalog(catalogData);
+		}
+
+		function filterByCategory(category) {
+			const filteredData = catalogData.filter(item => item.category === category);
+			displayCatalog(filteredData);
+		}
+		
+		// Initial display
+		showAll(); 
+	</script>
+</body>
+	
+</html>
