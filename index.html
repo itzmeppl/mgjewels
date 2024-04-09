@@ -25,11 +25,11 @@
         <li><a href="#" onclick="filterByCategory('necklace sets')">Necklace Sets</a></li>
         <li><a href="#" onclick="filterByCategory('pendant sets')">Pendant Sets</a></li>
         <li><a href="#" onclick="filterByCategory('earrings')">Earrings</a></li>
-	<li><a href="#" onclick="filterByCategory('ring')">Rings</a></li>
-	<li><a href="#" onclick="filterByCategory('bracelet')">Bracelets</a></li>
-     </ul>
+				<li><a href="#" onclick="filterByCategory('ring')">Rings</a></li>
+				<li><a href="#" onclick="filterByCategory('bracelet')">Bracelets</a></li>
+		</ul>
 </nav>
-<div class="masonry-container" id="catalog-container">
+<div class="catalog-container" id="catalog-container">
     <!-- Catalog items added here dynamically -->
 </div>
 	<script>
@@ -39,14 +39,13 @@
 			catalogContainer.innerHTML = '';
 			data.forEach(item => {
 					const catalogItem = document.createElement('div');
-					catalogItem.classList.add('masonry-item');
+					catalogItem.classList.add('catalog-item');
 					catalogItem.innerHTML = `
 							<img src="${item.imageUrl}" alt="${item.name}" width="150">
 							<h3 class="neutron-regular">${item.name}</h3>`;
 					catalogContainer.appendChild(catalogItem);
 			});
 		}
-
 		function showAll() {
 			displayCatalog(catalogData);
 		}
