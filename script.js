@@ -22,16 +22,16 @@ const catalogData = [
 	{ name: 'Pink and Yellow Necklace with Earrings', category: 'pendant sets', imageUrl: './pics/p19.jpg' },
 	{ name: 'Gold Necklace with Earrings', category: 'pendant sets', imageUrl: './pics/p20.jpg' },
 	{ name: 'Red and Blue Necklace with Earrings', category: 'pendant sets', imageUrl: './pics/p21.jpg' },
-	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: '/pics/e1.png' },
-	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: '/pics/e2.png' },
-	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: '/pics/e3.png' },
-	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: '/pics/e4.png' },
-	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: '/pics/e5.jpg' },
-	{ name: 'Beautiful Bracelet', category: 'bracelet', imageUrl: '/pics/b1.png' },
-	{ name: 'Flower ring', category: 'ring', imageUrl: '/pics/r1.jpg' },
-	{ name: 'Rings', category: 'ring', imageUrl: '/pics/r2.jpg' },
-	{ name: 'Ring', category: 'ring', imageUrl: '/pics/r3.jpg' },
-	{ name: 'Rings', category: 'ring', imageUrl: '/pics/r4.jpg' },
-	{ name: 'Blue and Pink rings', category: 'ring', imageUrl: '/pics/r5.jpg' }
+	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: './pics/e1.png' },
+	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: './pics/e2.png' },
+	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: './pics/e3.png' },
+	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: './pics/e4.png' },
+	{ name: 'Beautiful earrings', category: 'earrings', imageUrl: './pics/e5.jpg' },
+	{ name: 'Beautiful Bracelet', category: 'bracelet', imageUrl: './pics/b1.png' },
+	{ name: 'Flower ring', category: 'ring', imageUrl: './pics/r1.jpg' },
+	{ name: 'Rings', category: 'ring', imageUrl: './pics/r2.jpg' },
+	{ name: 'Ring', category: 'ring', imageUrl: './pics/r3.jpg' },
+	{ name: 'Rings', category: 'ring', imageUrl: './pics/r4.jpg' },
+	{ name: 'Blue and Pink rings', category: 'ring', imageUrl: './pics/r5.jpg' }
 
 ];
