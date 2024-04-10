@@ -6,7 +6,6 @@
 
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap')
-		</style>
 	</style>
 	
 	<title>MG Fashion Jewels</title>
@@ -29,6 +28,8 @@
 				<li><a href="#" onclick="filterByCategory('bracelet')">Bracelets</a></li>
 		</ul>
 </nav>
+
+
 <div class="catalog-container" id="catalog-container">
     <!-- Catalog items added here dynamically -->
 </div>
@@ -41,8 +42,8 @@
 					const catalogItem = document.createElement('div');
 					catalogItem.classList.add('catalog-item');
 					catalogItem.innerHTML = `
-							<img src="${item.imageUrl}" alt="${item.name}" width="150">
-							<h3 class="neutron-regular">${item.name}</h3>`;
+							<img src="${item.imageUrl}" alt="${item.name}">
+							<h3 class="neuton-regular">${item.name}</h3>`;
 					catalogContainer.appendChild(catalogItem);
 			});
 		}
