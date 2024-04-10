@@ -1,161 +1,169 @@
 html {
-	height: 100%;
-	width: 100%;
-  }
-   /* BASIC CSS */
-  .alex-brush-regular {
-	  font-family: "Alex Brush", cursive;
-	  font-weight: 400;
-	  font-size: 60px;
-	  font-style: normal;
-  }
-  
-  .neuton-regular {
-	  font-family: "Neuton", serif;
-	  font-weight: 400;
-	  font-style: normal;
-  }
-  
-  .neuton-bold {
-	  font-family: "Neuton", serif;
-	  font-weight: 700;
-	  font-style: normal;
-  }
-  
-  body {
-	  font-family: Arial, sans-serif;
-	  margin: 0;
-	  padding: 0;
-  }
-  
-  header {
-	  background-color: #731f1a;
-	  color: #fff;
-	  padding: 10px;
-	  display: flex;
-	  align-items: center;
-	  text-align: center;
-  }
-  #logo {
-	  width: 180px;
-	  cursor: pointer; 
-	  margin-right: 10px;
-  }
-  
-  /* NAV BAR */
-  nav {
-	  position: sticky;
-	  top: 0;
-	  background-color: #f2e9e1;
-	  padding: 10px;
-  }
-  nav ul {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	  text-align: center;
-  }
-  nav ul li {
-	  display: inline-block;
-	  margin-right: 1vw;
-	  margin-top: 0.5%;
-	  margin-bottom: 0.5%;
-	  padding: 0.5%;
-	  transition: background-color 0.4s ease; 
-  }
-  
-  nav ul li a {
-	  display: block; 
-	  margin: 2px;
-	  margin-left: 4px;
-	  margin-right: 4px;
-	  text-decoration: none;
-	  font-size: 20px;
-	  color: #333; 
-	  transition: color 0.4s ease;
-  }
-  
-  nav ul li:hover {
-	  background-color:#731f1a;
-  }
-  nav ul li:hover a {
-	  color: white;
-  }
-  
-  /* CONTENT CSS */
-  .catalog-container {
-	  display: flex; 
-	  flex-wrap: wrap;
-	  gap: 10px;
-	  padding: 20px;
-  }
-  
-  .catalog-item {
-	  flex: 1 1 180px;
-	  border: 1px solid rgba(204,204,204, 0.3);
-	  padding: 6px;
-	  text-align: center;
-  }
-  .catalog-item img{
-	  width: 200px;
-	  max-height: 270px;
-  }
-  .catalog-item:hover {
-	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  @media only screen and (max-width: 700px) {
-	  .alex-brush-regular {
-		  font-size: 45px;
-	  }
-	  header {
-		  padding: 6px;
-	  }
-	  #logo {
-		  width: 130px;
-		  margin-right: 6px;
-	  }
-	  #categories-list.show-menu {
-		  display: flex; /* Show the menu when the show-menu class is applied */
-	  }
-	  #menu-icon {
-		  cursor: pointer;
-		  visibility: visible;
-		  position: absolute; right: 5%;
-	  }
-  }
-  
-  /*Responsive Design*/
-  @media only screen and (max-width: 529px) {
-	  .alex-brush-regular {
-		  font-size: 35px;
-	  }
-	  header {
-		  padding: 6px;
-	  }
-	  #logo {
-		  width: 130px;
-		  margin-right: 6px;
-	  }
-	  nav {
-		  padding: 7px;
-	  }
-  }
-  
-  /*Responsive Design*/
-  @media only screen and (max-width: 279px) {
-	  .alex-brush-regular {
-		  font-size: 15px;
-	  }
-	  header {
-		  padding: 6px;
-	  }
-	  #logo {
-		  max-width: 80px;
-		  margin-right: 6px;
-	  }
-	  nav {
-		  padding: 4px;
-	  }
-  }
-  
+  height: 100%;
+  width: 100%;
+}
+ /* BASIC CSS */
+.alex-brush-regular {
+	font-family: "Alex Brush", cursive;
+	font-weight: 400;
+	font-size: 60px;
+	font-style: normal;
+}
+
+.neuton-regular {
+	font-family: "Neuton", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.neuton-bold {
+	font-family: "Neuton", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #731f1a;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+#logo {
+	width: 180px;
+	cursor: pointer; 
+	margin-right: 10px;
+}
+
+/* NAV BAR */
+nav {
+	position: sticky;
+	top: 0;
+	background-color: #f2e9e1;
+	padding: 10px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 1vw;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	padding: 0.5%;
+	transition: background-color 0.4s ease; 
+}
+
+nav ul li a {
+	display: block; 
+	margin: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #333; 
+	transition: color 0.4s ease;
+}
+
+nav ul li:hover {
+	background-color:#731f1a;
+}
+nav ul li:hover a {
+	color: white;
+}
+
+/* CONTENT CSS */
+.catalog-container {
+	display: flex; 
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 20px;
+}
+
+.catalog-item {
+	flex: 1 1 180px;
+	border: 1px solid rgba(204,204,204, 0.3);
+	padding: 6px;
+	text-align: center;
+}
+.catalog-item img{
+	width: 200px;
+	max-height: 270px;
+}
+.catalog-item:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*Responsive Design*/
+@media only screen and (max-width: 428px) {
+	.alex-brush-regular {
+		font-size: 30px;
+	}
+	header {
+		padding: 6px;
+	}
+	#logo {
+		max-width: 60px;
+		margin-right: 5px;
+	}
+	nav {
+		padding: 4px;
+	}
+	nav ul li a {
+		font-size: 15px;
+	}
+}
+
+/*Responsive Design*/
+@media only screen and (min-width: 429px) and (max-width: 600px) {
+	.alex-brush-regular {
+		font-size: 35px;
+	}
+	header {
+		padding: 6px;
+	}
+	#logo {
+		width: 130px;
+		margin-right: 6px;
+	}
+	nav {
+		padding: 7px;
+	}
+	.neuton-regular {
+		font-size: 35px;
+	}
+}
+
+
+@media only screen and (min-width: 601px) {
+	.alex-brush-regular {
+		font-size: 45px;
+	}
+	header {
+		padding: 6px;
+	}
+	#logo {
+		width: 130px;
+		margin-right: 6px;
+	}
+	#categories-list.show-menu {
+		display: flex;
+	}
+	#menu-icon {
+		cursor: pointer;
+		visibility: visible;
+		position: absolute;
+		right: 5%;
+	}
+}
