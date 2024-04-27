@@ -35,3 +35,13 @@ const catalogData = [
 	{ name: 'Blue and Pink rings', category: 'ring', imageUrl: './pics/r5.jpg' }
 
 ];
+
+document.addEventListener('DOMContentLoaded', () => {
+	// JavaScript to toggle the menu
+	const menuButton = document.getElementById('menu-btn');
+	const infoMenu = document.getElementById('info-menu');
+	
+	menuButton.addEventListener('click', () => {
+			infoMenu.classList.toggle('show-menu');
+	});
+});
