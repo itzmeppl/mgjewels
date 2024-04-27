@@ -26,7 +26,7 @@
 		<div class="neuton-regular" id="info-menu">
 				<p><a href="#" onclick="showAll()">Home</a></p>
 				<p><a href="#" onclick="jewelryCare()">Jewelry Care</a></p>
-				<p><a href="contact.html">Contact</a></p>
+				<p><a href="#" onclick="contactInfo()">Contact</a></p>
 		</div>
 	</header>
 
@@ -64,6 +64,29 @@
 					</ul>
 					<h3 class="neuton-regular">Jewelry life depends on your extensive care :) </h3>
 					`;
+			container.appendChild(catalogItem);
+		}
+
+		function contactInfo() {
+			const container = document.getElementById('catalog-container');
+			container.innerHTML = '';
+			const catalogItem = document.createElement('div');
+			catalogItem.innerHTML = `
+				<h1 class="neuton-bold">Contact Info</h1>
+
+				<h2 class="neuton-regular"><b>Phone:</b> +1-647-627-6545</h2>
+				<h2 class="neuton-regular"><b>Email:</b> mgfashionjewels@gmail.com </h2>
+				<br>
+				
+				<h2 class="neuton-bold">Facebook Pages</h2>
+				<ul class="neuton-regular">
+					<li><a href="https://www.facebook.com/Page1" target="_blank">Facebook Page 1</a></li>
+					<li><a href="https://www.facebook.com/Page2" target="_blank">Facebook Page 2</a></li>
+				</ul>
+				<h3 class="neuton-regular">
+					Feel free to contact us anywhere to place an order! 
+				</h3>
+				`;
 			container.appendChild(catalogItem);
 		}
 		
