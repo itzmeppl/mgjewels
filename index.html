@@ -35,9 +35,9 @@
 	        <li><a href="#" onclick="filterByCategory('necklace sets')"> Necklace Sets</a> </li>
 	        <li><a href="#" onclick="filterByCategory('pendant sets')"> Pendant Sets</a> </li>
 	        <li><a href="#" onclick="filterByCategory('earrings')"> Earrings</a> </li>
-		<li><a href="#" onclick="filterByCategory('ring')">Rings</a></li>
-		<li><a href="#" onclick="filterByCategory('bracelet')">Bracelets</a></li>
-	    </ul>
+					<li><a href="#" onclick="filterByCategory('ring')">Rings</a></li>
+					<li><a href="#" onclick="filterByCategory('bracelet')">Bracelets</a></li>
+			</ul>
 	</nav>
 
 
@@ -60,7 +60,7 @@
 						<li>Store your jewelry dry and clean.</li>
 						<li>Use a soft dry cloth to clean your jewelry.</li>
 						<li>Keep away from skincare, water, perfume and hairspray.</li>
-						<li>Please ensure the piece is to your liking before purchasing it as there are <b>no returns and no refunds</b>.</li>
+						<li>Please ensure the piece is to your liking before purchasing it as we offer <b>no returns and no refunds</b>.</li>
 					</ul>
 					<h3 class="neuton-regular">Jewelry life depends on your extensive care :) </h3>
 					`;
@@ -94,7 +94,8 @@
 					catalogItem.classList.add('catalog-item');
 					catalogItem.innerHTML = `
 							<img src="${item.imageUrl}" alt="${item.name}">
-							<h3 class="neuton-regular">${item.name}</h3>`;
+							<h3 class="neuton-regular">${item.name}</h3>
+							<p class="neuton-regular">${item.price}</p>`;
 					catalogContainer.appendChild(catalogItem);
 			});
 		}
