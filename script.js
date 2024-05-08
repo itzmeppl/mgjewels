@@ -41,17 +41,5 @@ const catalogData = [
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
-	// JavaScript to toggle the menu
-	const menuButton = document.getElementById('menu-btn');
-	const infoMenu = document.getElementById('info-menu');
 
-	menuButton.addEventListener("mouseover", mouseOver);
-	menuButton.addEventListener("mouseout", mouseOut);
-	
-	function mouseOver() {
-		infoMenu.classList.toggle('show-menu');
-	}
-	function mouseOut() {
-		infoMenu.classList.toggle('show-menu');
-	}
 });
