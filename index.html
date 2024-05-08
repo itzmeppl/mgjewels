@@ -22,11 +22,13 @@
 		<div>
 			<h1 class="alex-brush-regular">MG Fashion Jewels</h1>
 		</div>
-		<span class="material-symbols-outlined" id="menu-btn"> menu </span>
-		<div class="neuton-regular" id="info-menu">
-				<p><a href="#" onclick="showAll()">Home</a></p>
-				<p><a href="#" onclick="jewelryCare()">Jewelry Care</a></p>
-				<p><a href="#" onclick="contactInfo()">Contact</a></p>
+		<div class="dropdown">
+			<span class="material-symbols-outlined menu-btn" id="menu-btn"> menu </span>
+			<div class="neuton-regular menu-content" id="info-menu">
+					<p><a href="#" onclick="showAll()">Home</a></p>
+					<p><a href="#" onclick="jewelryCare()">Jewelry Care</a></p>
+					<p><a href="#" onclick="contactInfo()">Contact</a></p>
+			</div>
 		</div>
 	</header>
 
@@ -49,6 +51,7 @@
 	<script src="script.js"></script>
 
 	<script>
+		
 		//display Jewlery care
 		function jewelryCare() {
 			const container = document.getElementById('catalog-container');
