@@ -53,7 +53,7 @@ header {
 .menu-btn {
 	visibility: visible;
 	cursor: pointer;
-	position: absolute; right: 10%;
+	position: absolute; right: 1vw;
 	bottom: -10px;
 	border: none;
 }
