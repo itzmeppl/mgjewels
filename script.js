@@ -6,7 +6,7 @@ const catalogData = [
 	{ id:'p3-1', name: 'Golden Base with Nano settings & Center Pearl', price: '$35', category: 'pendant sets', imageUrl: './pics/p3-1.png' },
 	{ id:'p4-1', name: 'Oval AD Clear Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p4-1.png' },
 	{ id:'p13-1', name: 'Oval AD Pink Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p13-1.png' },
-	{ id:'p14', name: 'Oval AD Blue Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p14.png' },
+	{ id:'p14-1', name: 'Oval AD Blue Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p14-1.png' },
 	{ id:'p18-1', name: 'Oval AD Green Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p18-1.png' },
 	{ id:'p5', name: 'AD Pendant Set (Chain Available)', price: '$25', category: 'pendant sets', imageUrl: './pics/p5.png' },
 	{ id:'p6-1', name: 'AD Golden Pearl Pendant Set', price: '$45', category: 'pendant sets', imageUrl: './pics/p6-1.png' },
