@@ -35,8 +35,8 @@ const catalogData = [
 	{ id:'b1', name: 'Beautiful Bracelet', price: '$50', category: 'bracelet', imageUrl: './pics/b1.png' },
 	{ id:'r1', name: 'Flower Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r1.jpg' },
 	{ id:'r2-1', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-1.png' },
-	{ id:'r2-2', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-2.png' },
-	{ id:'r2-3', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-3.png' },
+	//{ id:'r2-2', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-2.png' },
+	//{ id:'r2-3', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-3.png' },
 	{ id:'r3', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r3.jpg' },
 	{ id:'r4', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r4.jpg' },
 	{ id:'r5-1', name: 'Blue and Pink Adjustable Rings', price: '$15 ea.', category: 'ring', imageUrl: './pics/r5-1.png' }
