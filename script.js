@@ -26,7 +26,6 @@ const catalogData = [
 	{ id:'p21-2', name: 'Red Necklace with Earrings', price: '$45', category: 'pendant sets', imageUrl: './pics/p21-2.png' },
 	{ id:'e1-1', name: 'Beautiful earrings', price: '$30', category: 'earrings', imageUrl: './pics/e1-1.png' },
 	{ id:'e2-1', name: 'Green and Red Beautiful earrings', price: '$15 ea.', category: 'earrings', imageUrl: './pics/e2-1.png' },
-	{ id:'e3', name: 'Beautiful earrings', price: '$15', category: 'earrings', imageUrl: './pics/e3.png' },
 	{ id:'e4-1', name: 'Beautiful earrings', price: '$35', category: 'earrings', imageUrl: './pics/e4-1.png' },
 	{ id:'e5-1', name: 'Beautiful earrings', price: '$45', category: 'earrings', imageUrl: './pics/e5-1.png' },
 	{ id:'e5-2', name: 'Beautiful earrings', price: '$45', category: 'earrings', imageUrl: './pics/e5-2.png' },
