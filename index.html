@@ -14,14 +14,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />	
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CXR4LD7EKC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CXR4LD7EKC"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-  gtag('config', 'G-CXR4LD7EKC');
-</script>
+		gtag('config', 'G-CXR4LD7EKC');
+	</script>
+	
 <body>
 	<header>
 		<div>
@@ -36,6 +37,7 @@
 					<p><a href="#" onclick="showAll()">Home</a></p>
 					<p><a href="#" onclick="jewelryCare()">Jewelry Care</a></p>
 					<p><a href="#" onclick="contactInfo()">Contact</a></p>
+					<p><a href="#" onclick="shippingInfo()">Shipping Info</a></p>
 			</div>
 		</div>
 	</header>
@@ -59,7 +61,26 @@
 	<script src="script.js"></script>
 
 	<script>
-		
+
+		//display Jewlery care
+		function shippingInfo() {
+			const container = document.getElementById('catalog-container');
+			container.innerHTML = '';
+			const catalogItem = document.createElement('div');
+			catalogItem.innerHTML = `
+					<h1 class="neuton-bold">Shipping Info</h1>
+					<div class="neuton-regular">
+						<p class="neuton-bold">Payment must be made before shipment</p> 
+						<p>Pick up available in Brampton and Downtown Toronto free of charge</p>
+						<p>Shipping available within Canada with additional charges</p>
+						<p>Charges vary from $5 to $10 based on the weight and location</p>
+						<p>Must make an opening video of the parcel you recieve to claim any refunds or returns on defective pieces of jewelry</p>
+					</div>
+					<h3 class="neuton-bold">**Policy: No returns nor refunds**</h3>
+					`;
+			container.appendChild(catalogItem);
+		}
+
 		//display Jewlery care
 		function jewelryCare() {
 			const container = document.getElementById('catalog-container');
