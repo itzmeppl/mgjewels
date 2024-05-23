@@ -1,4 +1,6 @@
 const catalogData = [
+	{ id:'comb2', name: 'Blue Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb2.png' },
+	{ id:'comb1', name: 'Pink Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb1.png' },
 	{ id:'n1-1', name: 'Brass Polki Set with full Pearl settings', price: '$55', category: 'necklace sets', imageUrl: './pics/n1-1.png' },
 	{ id:'n2-2', name: 'Multicolour Double Layer Brass Polki Set', price: '$80', category: 'necklace sets', imageUrl: './pics/n2-2.png' },
 	{ id:'p1-1', name: 'Diamond-shaped Clear Pendant Set', price: '$25', category: 'pendant sets', imageUrl: './pics/p1-1.png' },
