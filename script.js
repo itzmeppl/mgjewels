@@ -3,6 +3,8 @@ const catalogData = [
 	{ id:'comb1', name: 'Pink Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb1.png' },
 	{ id:'n1-1', name: 'Brass Polki Set with full Pearl settings', price: '$55', category: 'necklace sets', imageUrl: './pics/n1-1.png' },
 	{ id:'n2-2', name: 'Multicolour Double Layer Brass Polki Set', price: '$80', category: 'necklace sets', imageUrl: './pics/n2-2.png' },
+	{ id:'n3', name: 'AD CZ Sleek Neclace Set', price: '$48', category: 'necklace sets', imageUrl: './pics/n3.png' },
+	{ id:'n4', name: 'Korean Style Sleek Rose Gold Set', price: '$28', category: 'necklace sets', imageUrl: './pics/n4.png' },
 	{ id:'p1-1', name: 'Diamond-shaped Clear Pendant Set', price: '$25', category: 'pendant sets', imageUrl: './pics/p1-1.png' },
 	{ id:'p2-1', name: 'Pink Pendant Set (Chain Available)', price: '$25', category: 'pendant sets', imageUrl: './pics/p2-1.png' },
 	{ id:'p3-1', name: 'Golden Base with Nano settings & Center Pearl', price: '$35', category: 'pendant sets', imageUrl: './pics/p3-1.png' },
