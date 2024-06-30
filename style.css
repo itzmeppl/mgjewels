@@ -10,6 +10,12 @@ html {
 	font-style: normal;
 }
 
+.montecarlo-regular {
+	font-family: "MonteCarlo", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
 .neuton-regular {
 	font-family: "Neuton", serif;
 	font-weight: 400;
