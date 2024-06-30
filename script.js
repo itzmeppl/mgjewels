@@ -1,6 +1,8 @@
 const catalogData = [
 	{ id:'comb2', name: 'Blue Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb2.png', sold: false },
 	{ id:'comb1', name: 'Pink Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb1.png', sold: false },
+	{ id:'n7', name: 'AD Brass Necklace with Cute Earrings', price: '$65', category: 'necklace sets', imageUrl: './pics/n7.jpg', sold: false },
+	{ id:'n6', name: 'Emerald Green AD set with earrings', price: '$65', category: 'necklace sets', imageUrl: './pics/n6.jpg', sold: false },
 	{ id:'n5', name: 'Pink AD Necklace Set', price: '$60', category: 'necklace sets', imageUrl: './pics/n5.png', sold: false },
 	{ id:'n4', name: 'Korean Style Sleek Rose Gold Set', price: '$28', category: 'necklace sets', imageUrl: './pics/n4.png', sold: false },
 	{ id:'n3', name: 'AD CZ Sleek Neclace Set', price: '$48', category: 'necklace sets', imageUrl: './pics/n3.png', sold: false },
