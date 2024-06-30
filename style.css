@@ -162,17 +162,18 @@ nav ul li:hover a {
 }
 
 
+
+
 /*Responsive Design*/
-@media only screen and (max-width: 465px) {
-	.alex-brush-regular {
+@media only screen and (max-width: 479px) {
+	.montecarlo-regular {
 		font-size: 30px;
 	}
 	header {
 		padding: 6px;
 	}
 	#logo {
-		max-width: 60px;
-		margin-right: 5px;
+		max-width: 90px;
 	}
 	nav {
 		padding: 4px;
@@ -184,8 +185,8 @@ nav ul li:hover a {
 		font-size: 18px;
 	}
 }
-@media only screen and (min-width: 465.01px) and (max-width: 660px) {
-	.alex-brush-regular {
+@media only screen and (min-width: 479.01px) and (max-width: 767px) {
+	.montecarlo-regular {
 		font-size: 35px;
 	}
 	header {
@@ -193,7 +194,6 @@ nav ul li:hover a {
 	}
 	#logo {
 		width: 130px;
-		margin-right: 6px;
 	}
 	nav {
 		padding: 7px;
@@ -204,8 +204,8 @@ nav ul li:hover a {
 }
 
 
-@media only screen and (min-width: 660.01px) {
-	.alex-brush-regular {
+@media only screen and (min-width: 767.01px) {
+	.montecarlo-regular {
 		font-size: 45px;
 	}
 	header {
@@ -213,14 +213,12 @@ nav ul li:hover a {
 	}
 	#logo {
 		width: 130px;
-		margin-right: 6px;
 	}
 	#categories-list.show-menu {
 		display: flex;
 	}
 	#menu-icon {
 		cursor: pointer;
-		visibility: visible;
 		position: absolute;
 		right: 5%;
 	}
