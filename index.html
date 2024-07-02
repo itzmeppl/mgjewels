@@ -76,14 +76,23 @@
 		function displayCatalog(data) {
 			const catalogContainer = document.getElementById('catalog-container');
 			catalogContainer.innerHTML = '';
+
 			data.forEach(item => {
-					const catalogItem = document.createElement('div');
-					catalogItem.classList.add('catalog-item');
-					catalogItem.innerHTML = `
-							<img src="${item.imageUrl}" alt="${item.name}">
-							<h3 class="neuton-regular">${item.name}</h3>
-							<p class="neuton-regular">${item.price}</p>`;
-					catalogContainer.appendChild(catalogItem);
+				var soldIndicator = "";
+				if(item.sold){
+					soldIndicator = `<p class="neuton-regular" style="text-decoration: line-through; color: red;">${item.price}</p> 
+					<p class="neuton-regular" style="color: red;"> SOLD OUT</p>`;
+				} else{
+					soldIndicator = `<p class="neuton-regular">${item.price}</p>`;
+				} 
+				
+				const catalogItem = document.createElement('div');
+				catalogItem.classList.add('catalog-item');
+				catalogItem.innerHTML = `
+						<img src="${item.imageUrl}" alt="${item.name}">
+						<h3 class="neuton-regular">${item.name}</h3>
+						${soldIndicator}`;
+				catalogContainer.appendChild(catalogItem);
 			});
 		}
 
