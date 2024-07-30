@@ -2,6 +2,8 @@ const catalogData = [
 	{ id:'comb2', name: 'Blue Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb2.png', sold: false },
 	{ id:'comb1', name: 'Pink Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb1.png', sold: false },
 	{ id:'comb3', name: 'Mang Tikka, Jhumke and Necklace Set', price: '$75', category: 'combo', imageUrl: './pics/comb3.png', sold: false },
+	
+	{ id:'n8', name: 'Blue Dublet Stone AD Set', price: '$42', category: 'necklace sets', imageUrl: './pics/n8.png', sold: false },
 	{ id:'n7', name: 'AD Brass Necklace with Cute Earrings', price: '$65', category: 'necklace sets', imageUrl: './pics/n7.jpg', sold: false },
 	{ id:'n6', name: 'Emerald Green AD set with earrings', price: '$65', category: 'necklace sets', imageUrl: './pics/n6.jpg', sold: false },
 	{ id:'n5', name: 'Pink AD Necklace Set', price: '$60', category: 'necklace sets', imageUrl: './pics/n5.png', sold: false },
@@ -9,6 +11,7 @@ const catalogData = [
 	{ id:'n3', name: 'AD CZ Sleek Necklace Set', price: '$48', category: 'necklace sets', imageUrl: './pics/n3.png', sold: false },
 	{ id:'n1-1', name: 'Brass Polki Set with full Pearl settings', price: '$55', category: 'necklace sets', imageUrl: './pics/n1-1.png', sold: false },
 	{ id:'n2-2', name: 'Multicolour Double Layer Brass Polki Set', price: '$80', category: 'necklace sets', imageUrl: './pics/n2-2.png', sold: false },
+	
 	{ id:'p25', name: 'Navratan Pendant Set (Full AD dub-let stones)', price: '$50', category: 'pendant sets', imageUrl: './pics/p25.jpg', sold: false },
 	{ id:'p24', name: 'Navratan Pendant Set', price: '$45', category: 'pendant sets', imageUrl: './pics/p24.jpg', sold: false },
 	{ id:'p29', name: 'AD Green Stone Swan Pendant', price: '$30', category: 'pendant sets', imageUrl: './pics/p29.PNG', sold: false },
@@ -67,17 +70,21 @@ const catalogData = [
 	{ id:'e4-1', name: 'Long Droplets with AD Setting', price: '$35', category: 'earrings', imageUrl: './pics/e4-1.png', sold: false },
 	{ id:'e2-1', name: 'Green and Red Beautiful earrings', price: '$15 ea.', category: 'earrings', imageUrl: './pics/e2-1.png', sold: true },
 	{ id:'e1-1', name: 'Clear Long Droplet with Full AD Setting', price: '$30', category: 'earrings', imageUrl: './pics/e1-1.png', sold: false },
+	
 	{ id:'b1', name: 'Beautiful Bracelet', price: '$30', category: 'bracelet', imageUrl: './pics/b1.png', sold: false },
 	{ id:'b2', name: 'AD Kundan Bangles - Size 2.6', price: '$50', category: 'bracelet', imageUrl: './pics/b2.png', sold: false },
 	{ id:'b3', name: 'AD Kundan Bangles - Size 2.6', price: '$50', category: 'bracelet', imageUrl: './pics/b3.png', sold: false },
 	{ id:'b4', name: 'Multicolour AD Silver Bangle Set', price: '$80', category: 'bracelet', imageUrl: './pics/b4.png', sold: false },
+	
 	//{ id:'r1', name: 'Flower Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r1.jpg', sold: false },
 	{ id:'r2-1', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-1.png', sold: false },
 	//{ id:'r2-2', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-2.png', sold: false },
 	//{ id:'r2-3', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r2-3.png', sold: false },
 	//{ id:'r3', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r3.jpg', sold: false },
 	//{ id:'r4', name: 'Adjustable Ring', price: '$15', category: 'ring', imageUrl: './pics/r4.jpg', sold: false },
-	{ id:'r5-1', name: 'Blue and Pink Adjustable Rings', price: '$15 ea.', category: 'ring', imageUrl: './pics/r5-1.png', sold: false }
+	{ id:'r5-1', name: 'Blue and Pink Adjustable Rings', price: '$15 ea.', category: 'ring', imageUrl: './pics/r5-1.png', sold: false },
+	{ id:'r6', name: 'Bridgerton Style AD Adjustable Rings', price: '$15 ea.', category: 'ring', imageUrl: './pics/r5-1.png', sold: false },
+
 ];
 
 
