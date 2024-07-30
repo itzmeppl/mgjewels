@@ -1,10 +1,10 @@
 const catalogData = [
 	{ id:'comb2', name: 'Blue Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb2.png', sold: false },
 	{ id:'comb1', name: 'Pink Pendant Combo Set', price: '$55', category: 'combo', imageUrl: './pics/comb1.png', sold: false },
+	{ id:'comb3', name: 'Mang Tikka, Jhumke and Necklace Set', price: '$75', category: 'combo', imageUrl: './pics/comb3.png', sold: false },
 	{ id:'n7', name: 'AD Brass Necklace with Cute Earrings', price: '$65', category: 'necklace sets', imageUrl: './pics/n7.jpg', sold: false },
 	{ id:'n6', name: 'Emerald Green AD set with earrings', price: '$65', category: 'necklace sets', imageUrl: './pics/n6.jpg', sold: false },
 	{ id:'n5', name: 'Pink AD Necklace Set', price: '$60', category: 'necklace sets', imageUrl: './pics/n5.png', sold: false },
-	
 	{ id:'n4', name: 'Korean Style Sleek Rose Gold Set', price: '$28', category: 'necklace sets', imageUrl: './pics/n4.png', sold: false },
 	{ id:'n3', name: 'AD CZ Sleek Necklace Set', price: '$48', category: 'necklace sets', imageUrl: './pics/n3.png', sold: false },
 	{ id:'n1-1', name: 'Brass Polki Set with full Pearl settings', price: '$55', category: 'necklace sets', imageUrl: './pics/n1-1.png', sold: false },
@@ -41,6 +41,13 @@ const catalogData = [
 	//{ id:'p17', name: 'Necklace with Earrings', price: '$35', category: 'pendant sets', imageUrl: './pics/p17.png', sold: false },
 	{ id:'p19-1', name: 'Yellow Pearl Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p19-1.png', sold: true },
 	{ id:'p19-2', name: 'Pink Pearl Pendant Set', price: '$40', category: 'pendant sets', imageUrl: './pics/p19-2.png', sold: false },
+
+	{ id:'e25', name: 'AD Big Size Studs in Black', price: '$15', category: 'earrings', imageUrl: './pics/e25.png', sold: false },
+	{ id:'e24', name: 'AD Big Size Studs in Plum', price: '$15', category: 'earrings', imageUrl: './pics/e24.png', sold: false },
+	{ id:'e23', name: 'Big Dublet Stone Earrings - Available in colors Pink, Blue & Clear', price: '$12 ea.', category: 'earrings', imageUrl: './pics/e23.png', sold: false },
+	{ id:'e22', name: 'Black Pearl Droplet Earrings', price: '$40', category: 'earrings', imageUrl: './pics/e22.png', sold: false },
+	{ id:'e21', name: 'Hoop Jhumke', price: '$30', category: 'earrings', imageUrl: './pics/e21.png', sold: false },
+	{ id:'e20', name: 'AD CZ Small lightweight jhumke - Available in colors Aqua, Blush Pink, Deep Pink', price: '$32 ea.', category: 'earrings', imageUrl: './pics/e20.png', sold: false },
 	{ id:'e19', name: 'White Pearl Droplet earrings', price: '$12', category: 'earrings', imageUrl: './pics/e19.png', sold: false },
 	{ id:'e11', name: 'Bollywood Style Pink Kundan Drops', price: '$25', category: 'earrings', imageUrl: './pics/e11.png', sold: false },
 	{ id:'e10', name: 'Bollywood Style Green Kundan Drops', price: '$25', category: 'earrings', imageUrl: './pics/e10.png', sold: false },
